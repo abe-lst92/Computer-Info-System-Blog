@@ -8,5 +8,18 @@
     display: inline;
   }
 
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition-property: background-color, transform, color, font-family;
+    transition-duration: 4s;
+  }
+  
+  h1:hover{
+    font-family: fantasy;
+    background-color: fuchsia;
+    transform: rotateX(30deg);
+    color: white;
+  }
+
   
   
