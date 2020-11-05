@@ -1,4 +1,16 @@
-
+.flexbox-container{
+  display: flex;
+  
+}
+.flex-item{
+  justify-content: space-between;
+  align-items: baseline;
+  flex-flow: row;
+}
+.flex-two{
+  justify-content: space-between;
+  border: teal 20px solid;
+}
 
   img{
     width: 250px;
