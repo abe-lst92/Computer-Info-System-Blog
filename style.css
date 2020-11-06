@@ -1,17 +1,18 @@
-.flexbox-container{
+ /* body{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}  */
+.flexbox-container{
+  position: relative;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-}
-/* .flex-item{
-  justify-content: space-between;
-  align-items: baseline;
-  flex-flow: row;
-} */
-.flex-two{
-  justify-content: space-between;
-  border: teal 20px solid;
 }
 
   img{
