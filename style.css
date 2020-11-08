@@ -3,7 +3,7 @@
   padding: 0;
   background: #112128;
   color: white;
-  font-family: sans-serif;
+  font-family: monospace;
 } 
 .flexbox-container{
   display: flex;
