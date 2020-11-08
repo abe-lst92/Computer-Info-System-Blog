@@ -5,6 +5,11 @@
   color: white;
   font-family: sans-serif;
 } 
+.flexbox-container{
+  display: flex;
+  justify-content: space-around;
+ 
+}
 .card{
   display: flex;
   flex-direction: row;
